@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(192, 105, 73);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#titulo{
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(0, 157, 255);
+
+
+    
+}
+#botao{
+    fadein
+    font-family: fantasy;
+    border: solid 1px rgb(37, 95, 204);
+    background-color: rgb(113, 163, 228);
+    font-style: none;
+}
+#frase{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+
+    } 
+    100% {
+        opacity: 100;
+    }
+
+}
